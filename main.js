@@ -59,7 +59,6 @@ flankerStallInt = setInterval(function() {
 lagReductionInterval = setInterval(function() {
     geofs.savePreferencesPanel();
     geofs.api.renderingSettings.degradedCollisions = true;
-    geofs.api.renderingSettings.lowResRunways = false;
 }, 100);
 geofs.animation.values.shake = null
 
