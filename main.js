@@ -378,16 +378,16 @@ script2.onload = function() {
     runCatapults();
 };
 
-function checkOverlays() {
-    if (Object.values(geofs.runways.nearRunways)[0].icao == "VNLK") {
-        void(0)
-    } else {
-        geofs.runways.setRunwayModelVisibility(10)
-    }
-};
-checkOverlayInt = setInterval(function() {
-    checkOverlays()
-}, 1000)
+// function checkOverlays() {
+//     if (Object.values(geofs.runways.nearRunways)[0].icao == "VNLK") {
+//         void(0)
+//     } else {
+//         geofs.runways.setRunwayModelVisibility(10)
+//     }
+// };
+// checkOverlayInt = setInterval(function() {
+//     checkOverlays()
+// }, 1000)
 
 console.log("Original immersion SFX scripts copyright Ariakim Taiyo");
 console.log("Modified by NVB9 and Kolos26");
